@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image hover</title>
+</head>
+<body>
+    <center>
+     <h1>create a image hover using event</h1>
+     <img id="myImage" src="captainamerica1.jpg" onmouseover="mOver(this)" onmouseout="mOut(this)" 
+     style="width:120px; height:20px; padding:40px;"> 
+    </center>
+    <center>
+     <button onclick="changetxt()">click</button>
+     <p id="demo"></p>
+    </center>
+</body>
+<script>
+    function changetxt(){
+        document.getElementById("demo").innerHTML = Date();
+    }
+    function mOver(obj) {
+      obj.style.height ="400px" ;
+      obj.style.width="300px";
+    }
+    
+    function mOut(obj) {
+        obj.style.height ="250px" ;
+      obj.style.width="200px";
+    }
+    </script>
+</html>
