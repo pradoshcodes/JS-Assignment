@@ -1,9 +1,10 @@
 let employees=[{id:101,name:"Rahul Gandhi",salary:45000},
 {id:102,name:"sonia Gandhi",salary:55000},
 ]
-let createEmployee=(emp)=>{//execute will 3 sec
+let createEmployee=(emp,hello)=>{//execute will 3 sec
     setTimeout(()=>{
         employees.push(emp)
+        hello();
     },3000)
 }
 
@@ -16,5 +17,4 @@ let getEmployees=()=>{// execute will 1 sec
         document.getElementById("data").innerHTML=rows
     },1000);
 };
-createEmployee({id:103,name:"priyanka gandhi",salary:65000});
-getEmployees()
+createEmployee({id:103,name:"priyanka gandhi",salary:65000},getEmployees);
