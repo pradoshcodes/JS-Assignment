@@ -4,9 +4,11 @@
 
 // Sample answer: 
 
+
+let arr=[40,20,200,100,30,39]
 function findMaxNumber(arr) { 
 
-  return Math.max(…arr); 
+  return Math.max(...arr); 
 
 } 
-findMaxNumber();
+console.log((findMaxNumber(arr)));
