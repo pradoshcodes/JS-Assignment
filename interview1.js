@@ -4,8 +4,11 @@
 
 // Sample answer: 
 
-function isPalindrome(str) { 
 
-  return str === str.split(”).reverse().join(”); 
-
+function isPalindrome(user) { 
+  return user === user.split("").reverse().join(""); 
 }
+
+let user = prompt("Enter a number");
+let result = isPalindrome(user);
+console.log(`This is ${result}`);
