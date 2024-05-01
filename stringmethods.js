@@ -50,3 +50,55 @@ console.log( h.lastIndexOf("planet"));
 let i = "\n\t Hello world \n\t ";
 console.log(i);
 console.log(i.trim());
+
+//chartAt()
+//-----------
+let j = "Hello World";
+console.log(j.charAt(0));     
+
+//charCodeAt()
+//---------------
+let k = "HELLO WORLD";
+console.log(k.charCodeAt(0));
+
+//fromCharCode()
+//-----------------
+let char = String.fromCharCode(65);
+let l = String.fromCharCode(72, 69, 76, 76, 79);
+
+
+//Concat()
+//----------
+let text1 = "sea";
+let text2 = "food";
+let result = text1.concat(text2);
+
+//split()
+//-------
+let m = "I have two apples and three oranges";
+console.log(m.split("oranges"));
+
+//slice()
+//------
+let n = "Hello world!";
+console.log( n.slice(0, 5));
+
+//substring()
+//-----------
+let o = "Hello world!";
+console.log( o.substring(1, 4));
+
+//substr()
+//---------
+let p = "Hello world!";
+ p.substr(1, 4);
+
+ //tostring()
+ //-----------
+ let q = "Hello World!";
+ console.log(q.toString());
+
+ //valueOf()
+ //---------
+ let r = "Hello World!";
+ console.log(r.toString());

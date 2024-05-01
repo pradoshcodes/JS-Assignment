@@ -1,3 +1,5 @@
+// Write a JavaScript program to calculate the factorial of a given number. 
+
 let num=-5;
 function fun(){
     let fact=1
