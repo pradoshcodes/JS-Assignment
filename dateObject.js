@@ -23,3 +23,7 @@ let myTimeStamp=Date.now()
 console.log(myTimeStamp);
 console.log(createDate.getTime());
 console.log(Date.now()/1000);
+
+
+let text = myDate.toLocaleTimeString();
+console.log(text);
