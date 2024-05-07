@@ -142,4 +142,10 @@ console.log(fruits.fill("Kiwi", 2, 2));
     text2 += index + ": " + item + "<br>"; 
   })
   console.log("<p>"+text2+"</p>");
- 
+
+
+  //includes()
+  //===========
+  const fruits21 = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits21.includes("Mango"));
+ console.log(fruits21.includes("Banana", 3));
